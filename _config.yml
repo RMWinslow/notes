@@ -1,0 +1,21 @@
+title: RMW's Notes
+description: "Notes from Professor Robert Martin Winslow. This repo contains notes, links, and graphs for economics."
+author: Robert Winslow
+remote_theme: RMWinslow/JTD-RMW
+search_enabled: true
+page_excerpts: true
+gh_edit_link: false
+math: mathjax
+
+compress_html:
+  ignore:
+    envs: all
+
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  
+whitelist:
+  - jekyll-redirect-from
+  
