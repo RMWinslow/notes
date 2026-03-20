@@ -1,7 +1,6 @@
 ---
 title: National Savings
 parent: Intermediate Macro Notes
-grand_parent: Notes
 layout: post
 toc: false
 nav_order: 103

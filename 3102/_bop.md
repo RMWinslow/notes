@@ -1,7 +1,6 @@
 ---
 title: Balance of Payment
 parent: Intermediate Macro Notes
-grand_parent: Notes
 layout: post
 nav_order: 6
 last_modified_date: 2023-04-24

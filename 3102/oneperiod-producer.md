@@ -2,7 +2,6 @@
 title: Representative Producer
 subtitle: The Producer in a one-period competitive equilibrium.
 parent: Intermediate Macro Notes
-grand_parent: Notes
 layout: post
 toc: true
 nav_order: 202

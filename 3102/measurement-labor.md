@@ -1,7 +1,6 @@
 ---
 title: Labor Aggregates
 parent: Intermediate Macro Notes
-grand_parent: Notes
 layout: post
 nav_order: 104
 last_modified_date: 2022-09-04

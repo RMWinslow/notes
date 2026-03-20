@@ -100,7 +100,7 @@ class: caption-slide
 ## Snails!
 
 
-![test image, ignore the content](https://www.rmwinslow.com/3102/img-money-snails.webp)
+![test image, ignore the content](img-money-snails.webp)
 
 Monetaria Moneta, the Money Cowrie. The shells of these snails were widely used as money.
 

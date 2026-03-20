@@ -1,6 +1,6 @@
 ---
 title: Competitive Equilibrium
-parent: Notes
+parent: Intermediate Macro Notes
 layout: post
 has_children: true
 ---

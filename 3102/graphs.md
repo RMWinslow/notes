@@ -1,7 +1,6 @@
 ---
 title: 3102 Graphs
 parent: Intermediate Macro Notes
-grand_parent: Notes
 layout: post
 toc: false
 nav_exclude: true

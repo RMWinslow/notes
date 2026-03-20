@@ -1,7 +1,6 @@
 ---
 title: Business Cycles
 parent: Intermediate Macro Notes
-grand_parent: Notes
 layout: post
 toc: false
 nav_order: 105

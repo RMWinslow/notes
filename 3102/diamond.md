@@ -2,7 +2,6 @@
 title: Bank Runs
 subtitle: Self-Fulfilling Prophecies in the Diamond-Dybvig Model
 parent: Intermediate Macro Notes
-grand_parent: Notes
 layout: post
 toc: true
 nav_order: 601

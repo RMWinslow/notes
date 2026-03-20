@@ -2,7 +2,6 @@
 title: Prices
 subtitle: Price Adjustment, Price Indices, and Chain-Weighting
 parent: Intermediate Macro Notes
-grand_parent: Notes
 layout: post
 toc: true
 nav_order: 102

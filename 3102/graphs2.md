@@ -1,7 +1,6 @@
 ---
 title: 3102 Graphs (Highcharts, old)
 parent: Intermediate Macro Notes
-grand_parent: Notes
 layout: post
 toc: true
 nav_exclude: true

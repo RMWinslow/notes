@@ -2,7 +2,6 @@
 title: Money and Business Cycles
 subtitle: Neutral Money or Sticky Prices - Different Ways of Adding Money to the Model
 parent: Intermediate Macro Notes
-grand_parent: Notes
 layout: post
 toc: true
 nav_order: 506

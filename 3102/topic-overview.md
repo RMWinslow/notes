@@ -1,7 +1,6 @@
 ---
 title: Intermediate Macro Notes
 subtitle: Notes on the Topics Covered in Econ 3102, Intermediate Macroeconomics.
-parent: Notes
 layout: post
 has_children: true
 has_toc: false

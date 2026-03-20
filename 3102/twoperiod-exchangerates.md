@@ -2,7 +2,6 @@
 title: Exchange Rates
 subtitle: Monetary Policy in an International Context
 parent: Intermediate Macro Notes
-grand_parent: Notes
 layout: post
 toc: true
 nav_order: 509

@@ -1,7 +1,6 @@
 ---
 title: Money Concepts
 parent: Intermediate Macro Notes
-grand_parent: Notes
 layout: post
 nav_order: 106
 date: 2023-04-25
