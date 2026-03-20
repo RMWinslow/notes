@@ -1,0 +1,4 @@
+*.lyx~
+*.lyx#
+*.lyx.emergency
+__pycache__/
