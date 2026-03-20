@@ -1,10 +1,11 @@
 ---
-title: 3102 Graphs (Highcharts, old)
+title: 302 Graphs (Highcharts, old)
 parent: Intermediate Macro Notes
 layout: post
 toc: true
 nav_exclude: true
 last_modified_date: 2023-09-20
+redirect_from: /3102/graphs2
 ---
 
 <!--

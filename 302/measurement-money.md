@@ -6,6 +6,7 @@ nav_order: 106
 date: 2023-04-25
 last_modified_date: 2022-09-14
 
+redirect_from: /3102/measurement-money
 ---
 
 <!--last_modified_date: 2022-09-14-->

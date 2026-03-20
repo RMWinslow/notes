@@ -4,6 +4,7 @@ layout: remark_slides
 date: 2025-09-08
 modified: 2025-09-08
 nav_exclude: true
+redirect_from: /3102/measurement-money-slides
 ---
 
 class:center,middle

@@ -7,6 +7,7 @@ nav_order: 300
 date: 2022-10-12
 last_modified_date: 2022-10-15
 toc: true
+redirect_from: /3102/jobsearch
 ---
 
 <!--
@@ -14,7 +15,7 @@ toc: true
 
 ## Definitions
 
-Amply Covered in https://www.rmwinslow.com/3102/measurement-labor.html
+Amply Covered in https://www.rmwinslow.com/302/measurement-labor.html
 Well, maybe not the vacancy rate
 
 

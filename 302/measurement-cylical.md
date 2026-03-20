@@ -5,6 +5,7 @@ layout: post
 toc: false
 nav_order: 105
 last_modified_date: 2023-01-31
+redirect_from: /3102/measurement-cylical
 ---
 
 <!--TODO: add section on seasonal adjustment and annualization of rates-->

@@ -6,6 +6,7 @@ layout: post
 toc: true
 nav_order: 203
 last_modified_date: 2022-01-02
+redirect_from: /3102/oneperiod-equilibrium
 ---
 
 <!--TODO: note about prices and allocations in this model-->

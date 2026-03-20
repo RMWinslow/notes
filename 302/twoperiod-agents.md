@@ -6,6 +6,7 @@ layout: post
 toc: true
 nav_order: 504
 last_modified_date: 2022-01-02
+redirect_from: /3102/twoperiod-agents
 ---
 
 

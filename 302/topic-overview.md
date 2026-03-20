@@ -1,12 +1,13 @@
 ---
 title: Intermediate Macro Notes
-subtitle: Notes on the Topics Covered in Econ 3102, Intermediate Macroeconomics.
+subtitle: Notes on the Topics Covered in Econ 302, Intermediate Macroeconomics.
 layout: post
 has_children: true
 has_toc: false
+redirect_from: /3102/topic-overview
 ---
 
-Below are some of my teaching notes for Econ 3102, Intermediate Macroeconomics.
+Below are some of my teaching notes for Econ 302, Intermediate Macroeconomics.
 
 I've prepared these notes for several reasons:
 - As a teaching aide, to highlight and outline points I wish to make during lectures.
@@ -78,8 +79,8 @@ Other:
 PLanned structure for navigation:
 
 Notes
-    3102
-        A 
+    302
+        A
         list 
         of
         every

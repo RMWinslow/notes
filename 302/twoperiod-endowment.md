@@ -6,6 +6,7 @@ layout: post
 toc: true
 nav_order: 501
 date: 2023-01-02
+redirect_from: /3102/twoperiod-endowment
 ---
 
 <!--last_modified_date: 2022-08-23-->

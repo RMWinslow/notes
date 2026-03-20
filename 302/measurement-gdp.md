@@ -6,6 +6,7 @@ layout: post
 toc: true
 last_modified_date: 2022-09-04
 nav_order: 101
+redirect_from: /3102/measurement-gdp
 ---
 
 

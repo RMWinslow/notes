@@ -7,6 +7,7 @@ toc: true
 nav_order: 001
 date: 2023-09-11
 last_modified_date: 2023-09-11
+redirect_from: /3102/math-lagrangian
 ---
 
 ## The Problem:

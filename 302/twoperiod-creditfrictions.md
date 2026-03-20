@@ -5,6 +5,7 @@ layout: post
 toc: true
 nav_order: 502
 last_modified_date: 2023-03-13
+redirect_from: /3102/twoperiod-creditfrictions
 ---
 
 The model we looked at in Chapter 9 predicts that it's increases in permanent income that increase consumption patterns, and a temporary increase in income will instead mostly just increase savings.

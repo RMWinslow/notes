@@ -4,6 +4,7 @@ parent: Intermediate Macro Notes
 layout: post
 nav_order: 104
 last_modified_date: 2022-09-04
+redirect_from: /3102/measurement-labor
 ---
 
 ## Main Labor Market Aggregates in Brief

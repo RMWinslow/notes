@@ -6,6 +6,7 @@ layout: post
 toc: true
 nav_order: 201
 last_modified_date: 2023-01-02
+redirect_from: /3102/oneperiod-consumer
 ---
 
 
@@ -228,5 +229,5 @@ $$\frac{\partial}{\partial w}l^{*}=\frac{\partial}{\partial w}\frac{wh+\pi-T}{2w
 
 <!--<iframe height="510px" width="100%" src="./highcharts/onePeriodConsumer.html"></iframe>
 
-[Standalone Link](https://www.rmwinslow.com/3102/highcharts/onePeriodConsumer.html)-->
+[Standalone Link](https://www.rmwinslow.com/302/highcharts/onePeriodConsumer.html)-->
 

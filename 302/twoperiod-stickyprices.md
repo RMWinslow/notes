@@ -6,6 +6,7 @@ layout: post
 toc: true
 nav_order: 506
 last_modified_date: 2023-01-01
+redirect_from: /3102/twoperiod-stickyprices
 ---
 
 

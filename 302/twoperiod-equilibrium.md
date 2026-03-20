@@ -5,6 +5,7 @@ layout: post
 toc: true
 nav_order: 505
 last_modified_date: 2022-12-30
+redirect_from: /3102/twoperiod-equilibrium
 ---
 
 

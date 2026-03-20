@@ -6,6 +6,7 @@ layout: post
 toc: true
 nav_order: 102
 last_modified_date: 2022-09-06
+redirect_from: /3102/measurement-prices
 ---
 
 

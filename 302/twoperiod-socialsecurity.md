@@ -6,6 +6,7 @@ layout: post
 toc: true
 nav_order: 503
 last_modified_date: 2023-03-13
+redirect_from: /3102/twoperiod-socialsecurity
 ---
 
 Social security at its core is a transfer from the young to the old.[^otherssprograms]

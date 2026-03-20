@@ -1,11 +1,12 @@
 ---
-title: 3102 Graphs
+title: 302 Graphs
 parent: Intermediate Macro Notes
 layout: post
 toc: false
 nav_exclude: true
 date: 2022-08-23
 last_modified_date: 2023-09-20
+redirect_from: /3102/graphs
 ---
 
 <!--

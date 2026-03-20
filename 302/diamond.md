@@ -6,6 +6,7 @@ layout: post
 toc: true
 nav_order: 601
 date: 2023-03-13
+redirect_from: /3102/diamond
 ---
 
 
