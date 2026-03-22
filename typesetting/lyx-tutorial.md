@@ -24,7 +24,7 @@ In the top left of the window there is a drop-down menu which allows you to chan
 
 ### Inserting Math
 
-If you insert an inline formula, you get something like this: \(U=\sum_t\beta^t u(c_t)\). The shortcut for creating an inline formula is ctrl-m on Windows and command-m on Mac. You can also insert a 'display' formula (shortcut: ctrl-shift-m or cmd-shift-m) which is bigger and occupies its own line:
+If you insert an inline formula, you get something like this: $U=\sum_t\beta^t u(c_t)$. The shortcut for creating an inline formula is ctrl-m on Windows and command-m on Mac. You can also insert a 'display' formula (shortcut: ctrl-shift-m or cmd-shift-m) which is bigger and occupies its own line:
 
 $$U=\sum_t\beta^t u(c_t)$$
 

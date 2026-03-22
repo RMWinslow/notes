@@ -15,7 +15,7 @@ redirect_from:
 
 ## How to enter math mode
 
-There are two kinds of ways to display math on a page. You can either have *inline* math, which is part of the line that you type it in, like \(x^2 + {A \over B}\). Or you can have *display* math, which is centered and enlarged:
+There are two kinds of ways to display math on a page. You can either have *inline* math, which is part of the line that you type it in, like $x^2 + {A \over B}$. Or you can have *display* math, which is centered and enlarged:
 
 $$x^2 + {A \over B}$$
 
@@ -41,7 +41,7 @@ You can then use a drop-down menu to switch an equation between inline and displ
 
 ###### Pure LaTeX
 
-If you are typing in a pure LaTeX environment (like in Overleaf), you can use `\( x^2 \)` or `$ x^2 $` to insert an inline equation like this: \( x^2 \). And you can use `\[ x^2 \]` or `$$ x^2 $$` to insert a display-mode equation like this:
+If you are typing in a pure LaTeX environment (like in Overleaf), you can use `\( x^2 \)` or `$ x^2 $` to insert an inline equation like this: $x^2$. And you can use `\[ x^2 \]` or `$$ x^2 $$` to insert a display-mode equation like this:
 
 $$x^2$$
 
@@ -102,7 +102,7 @@ Note that unlike greek letters, the names of these symbols are usually abbreviat
 
 ### Weird Fancy Letters.
 
-Oftentimes in math, you will see a symbol which looks like a normal letter, but written in a strange font. For example, \(\mathbb{R}\) is used to represent the real numbers, and \(\mathcal{L}\) is used as a symbol for Lagrangian optimization. These special fonts are called "Math **B**lackboard **B**old" and "Math **Cal**igraphy", and are abbreviated as mathbb and mathcal, respectively.
+Oftentimes in math, you will see a symbol which looks like a normal letter, but written in a strange font. For example, $\mathbb{R}$ is used to represent the real numbers, and $\mathcal{L}$ is used as a symbol for Lagrangian optimization. These special fonts are called "Math **B**lackboard **B**old" and "Math **Cal**igraphy", and are abbreviated as mathbb and mathcal, respectively.
 
 <div style="display: flex;  justify-content: center;">
 <table>
@@ -138,7 +138,7 @@ In complex equations, curly braces can be used to control what is inside the fra
 
 ### Limits, Integrals, and Sums
 
-Some symbols have special formatting rules in display mode. For example, when we talk about the limit of a function as \(x\) approaches infinity, we want to place the symbols <b style="background-color: #eee8d5;">\(x\to\infty\)</b> directly underneath the <b style="background-color: #eee8d5;">\(\lim\)</b> symbol.
+Some symbols have special formatting rules in display mode. For example, when we talk about the limit of a function as $x$ approaches infinity, we want to place the symbols <b style="background-color: #eee8d5;">$x\to\infty$</b> directly underneath the <b style="background-color: #eee8d5;">$\lim$</b> symbol.
 
 The following table shows three of these special symbols in inline mode:
 
