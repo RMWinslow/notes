@@ -60,7 +60,7 @@ although we do go into more detail in some some cases.
 
 ### A Two Period Competitive Equilibrium
 
-- [Two-Period Endowment Economy](twoperiod-consumer)
+- [Two-Period Endowment Economy](twoperiod-endowment)
 - [Credit Market Imperfections](twoperiod-creditfrictions)
 - [Social Security](twoperiod-socialsecurity)
 - [Two Period Firm](twoperiod-agents)
