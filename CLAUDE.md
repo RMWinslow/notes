@@ -44,7 +44,7 @@ The main site repo is `RMWinslow.github.io` (deployed at
 
 ### What lives here
 
-- **`index.md`** — The site root page for `/notes/`.
+- **`index.md`** — The site root page for `/notes/` (`nav_exclude: true`).
 
 - **`_config.yml`** — Jekyll configuration. Sets `baseurl: /notes`,
   `remote_theme: RMWinslow/JTD-RMW`, `math: mathjax`, and enables the
@@ -66,16 +66,16 @@ The main site repo is `RMWinslow.github.io` (deployed at
     security OLG diagrams, two-period shifter diagrams, job search flowcharts,
     a competitive equilibrium doodle, and a GDP-three-ways diagram).
 
-- **`202/`** — Principles of Macro. Currently contains only
-  `inflation-costs.md` (migrated 2026-03-20).
+- **`202/`** — Principles of Macro. Has a stub parent page (`index.md`)
+  and currently contains only `inflation-costs.md` (migrated 2026-03-20).
 
 - **`typesetting/`** — Typesetting teaching pages (LaTeX math guide, LyX
   tutorial, software overview), converted from legacy HTML to Jekyll markdown
-  on 2026-03-21. Visible in the nav sidebar as a standalone section. The pages
-  include `redirect_from` entries for their old `/econ/teaching/typesetting/`
-  URLs. The main repo's redirect stubs still point to the old paths and should
-  be updated to point directly to `/notes/typesetting/...` to avoid two-hop
-  chains.
+  on 2026-03-21. Has a stub parent page (`index.md`) and is visible in the
+  nav sidebar as a standalone section. The pages include `redirect_from`
+  entries for their old `/econ/teaching/typesetting/` URLs. The main repo's
+  redirect stubs were updated on 2026-03-21 to point directly to
+  `/notes/typesetting/...`.
 
 - **`econ/`** — Legacy economics content migrated from the main repo on
   2026-03-20. These are pre-Jekyll HTML files without frontmatter — they don't
@@ -177,16 +177,41 @@ the directory was still named `3102/` in this repo).
 
 ### If you rename or move a page in this repo
 
-1. Update the redirect stub in the main repo's `redirects/` directory to point
-   to the new URL.
-2. If the page had a `redirect_from` in its own frontmatter, update or remove
-   that too.
-3. Update the entry in the main repo's `redirects/INDEX.md`.
-4. Verify there are no redirect chains (old URL → intermediate URL → final
-   URL). Every redirect should be a single hop.
+Two repos need to be updated: this one (notes) and the main site repo
+(`RMWinslow.github.io`). The main repo is at
+`C:\Users\RMW\Documents\GitHub\RMWinslow.github.io`.
 
-The full redirect maintenance procedure is documented in the main repo's
-`redirects/INDEX.md`, including a curl-based validation checklist.
+**In this repo (notes):**
+
+1. Add a `redirect_from` entry in the moved page's frontmatter listing the
+   old URL path (relative to the site root, not the repo root — e.g.,
+   `/econ/teaching/typesetting/latexMath.html`, not
+   `econ/teaching/typesetting/latexMath.html`). Jekyll will generate a
+   redirect page at the old URL that sends visitors to the new one.
+
+2. If the page already had `redirect_from` entries, keep them (they cover
+   earlier moves) and add the new old-path entry.
+
+**In the main repo (`RMWinslow.github.io`):**
+
+3. Update the `redirect_to` field in the corresponding stub file under
+   `redirects/` to point directly to the page's new URL. This keeps the
+   redirect from the original pre-migration URL as a single hop.
+
+4. Update the entry in `redirects/INDEX.md` to reflect the new destination.
+
+**Verify** there are no redirect chains (old URL → intermediate URL → final
+URL). Every redirect should be a single hop. The full redirect maintenance
+procedure is documented in the main repo's `redirects/INDEX.md`, including
+a curl-based validation checklist.
+
+### Inline math convention
+
+Use `$...$` for inline math in markdown files, not `\(...\)`. Kramdown
+escapes backslashes in `\(...\)` before MathJax can process them. The
+`$...$` syntax works correctly. Display math uses `$$...$$`. The `\(...\)`
+delimiter is safe inside raw HTML blocks (e.g., `<table>` elements) since
+kramdown does not process content within HTML tags.
 
 ## Known Broken Links (from the main repo audit, 2026-03-16)
 
@@ -257,3 +282,12 @@ The page contains `IMAGEURLHERE` as a placeholder for a broken image reference.
   for its Blog link.
 - [ ] Consolidate the `mynotes` repo (currently on the `minimal-mistakes` theme
   at a separate URL) into this repo.
+- [ ] Audit inline math across the site for kramdown/MathJax conflicts.
+  Kramdown parses markdown syntax (e.g., underscores as emphasis) inside
+  `$...$` inline math before MathJax sees it, so expressions like
+  `$x_1 + x_2$` can break. Display math (`$$...$$`) is protected. This
+  affects all repos using the JTD-RMW theme, so the fix may belong in the
+  theme repo (`RMWinslow/JTD-RMW`) or in the main site's `_config.yml`
+  rather than in individual pages. Possible fixes include a kramdown math
+  engine config, a MathJax/kramdown integration plugin, or escaping
+  underscores in affected equations.
