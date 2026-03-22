@@ -1,6 +1,7 @@
 ---
 title: The Costs of Inflation
 subtitle: It's more complicated than "things getting more expensive".
+parent: Principles of Macro
 layout: post
 date: 2024-11-06
 last_modified_date: 2024-11-06

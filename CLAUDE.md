@@ -8,6 +8,16 @@ search_exclude: True
 This file serves as Claude's working memory for the `notes` repo
 (deployed at `www.rmwinslow.com/notes/`).
 
+## Do Not Fabricate
+
+Never invent details about how something works when you don't actually know.
+If you haven't read the code or verified the mechanism, say "I don't know how
+this works" rather than confecting a plausible-sounding explanation. Making
+things up poisons the project's documentation and memory — a confident
+falsehood in a comment or note will mislead future sessions (and humans) who
+trust it at face value. State what you've observed, flag what you're unsure
+about, and leave blanks rather than filling them with fiction.
+
 ## Writing Conventions
 
 Do not drop articles ("a", "an", "the") from commit messages, prose, or any
@@ -34,35 +44,63 @@ The main site repo is `RMWinslow.github.io` (deployed at
 
 ### What lives here
 
+- **`index.md`** — The site root page for `/notes/`.
+
+- **`_config.yml`** — Jekyll configuration. Sets `baseurl: /notes`,
+  `remote_theme: RMWinslow/JTD-RMW`, `math: mathjax`, and enables the
+  `jekyll-sitemap` and `jekyll-redirect-from` plugins.
+
 - **`302/`** — Intermediate Macro (Econ 3102) notes. These are Jekyll markdown
   pages with frontmatter, organized under a nav hierarchy rooted at
   `topic-overview.md`. They include interactive kgjs graphs (`302/graphs/`),
   Highcharts graphs (`302/highcharts/`), images, and supporting assets. This
   was the first content migrated from the main repo (2026-03-19), and the
   directory was renamed from `3102/` to `302/` on 2026-03-20.
+  - `302/img-money/` — ~17 PNG images illustrating the history of money
+    (barter, coins, shells, paper currency, etc.).
+  - `302/python graphs/` — Python scripts and a CSV for generating charts
+    (`GDPpie.py`, `CCPIU_by_type.py`, `PCE_by_type.py`, `C-CPI-U.csv`).
+    These are source files, not served directly.
+  - `302/Ponzi.pdf` — A PDF supplement on Ponzi schemes.
+  - Various loose `.png`, `.svg`, and `.webp` images at the top level (social
+    security OLG diagrams, two-period shifter diagrams, job search flowcharts,
+    a competitive equilibrium doodle, and a GDP-three-ways diagram).
 
 - **`202/`** — Principles of Macro. Currently contains only
   `inflation-costs.md` (migrated 2026-03-20).
+
+- **`typesetting/`** — Typesetting teaching pages (LaTeX math guide, LyX
+  tutorial, software overview), converted from legacy HTML to Jekyll markdown
+  on 2026-03-21. Visible in the nav sidebar as a standalone section. The pages
+  include `redirect_from` entries for their old `/econ/teaching/typesetting/`
+  URLs. The main repo's redirect stubs still point to the old paths and should
+  be updated to point directly to `/notes/typesetting/...` to avoid two-hop
+  chains.
 
 - **`econ/`** — Legacy economics content migrated from the main repo on
   2026-03-20. These are pre-Jekyll HTML files without frontmatter — they don't
   participate in the nav tree or search index, but they're actively served as
   static pages. The directory contains:
   - `econ/teaching/` — Interactive graphs, equilibrium walkthroughs,
-    intertemporal consumer problems, typesetting guides, and problem sets
-    with SVG figures, all for Econ 3102.
+    intertemporal consumer problems, and problem sets with SVG figures, all
+    for Econ 3102. (The typesetting guides that were formerly here have been
+    moved to `typesetting/`.)
   - `econ/macroprelim/` — Macro prelim study notes (Chari, Jones, Kehoe
-    sections), organized by professor.
+    sections), organized by professor. Also includes a `Concepts/` directory
+    with `flowchartkey/`.
   - `econ/tradeprelim/` — Trade prelim study notes (Amador, Fitzgerald, Kehoe
     sections), with LyX source files alongside the HTML.
-  - `econ/presentations/` — Percolation/graph theory slides (Reveal.js) and
-    a presentation list.
+  - `econ/presentations/` — Percolation/graph theory slides (Reveal.js), a
+    presentation list, and SVG graph-sample images in `bern/` and `breadth/`
+    subdirectories (complete-graph and random-sample illustrations).
   - `econ/nonsense/mathsymbols.html` — A math symbols reference page.
   - `econ/UMNelectives.md` — A Jekyll page listing UMN econ electives
     (`nav_exclude: true`). Robert is no longer at UMN.
 
 - **`_detritus/`** — Unsorted research files from the `papersdrafts` repo
-  migration. Not part of the notes content.
+  migration. Not part of the notes content. Contains a `research/` subdirectory
+  with Arrow/mechanism-design notes (`arrowroot/`), reading notes, and talk
+  notes.
 
 ### CSS references in legacy HTML
 
@@ -127,7 +165,11 @@ moved here:
 
 - **65 stubs** for the `econ/` migration (2026-03-20) — covers 1 MD file
   (UMNelectives) and 64 HTML files. These redirect from `/econ/...` to
-  `/notes/econ/...`.
+  `/notes/econ/...`. Three of these stubs (for the typesetting pages) were
+  updated on 2026-03-21 to point directly to `/notes/typesetting/...` after
+  the content moved out of the legacy `econ/` tree. The typesetting pages
+  also have `redirect_from` entries covering the old
+  `/econ/teaching/typesetting/` paths within this repo.
 
 The 302/ pages also have `redirect_from` entries in their own frontmatter
 covering the intermediate `/notes/3102/...` URLs (from the brief period when

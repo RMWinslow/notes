@@ -1,8 +1,8 @@
 ---
-title: Typesetting Mathematics
+title: Typesetting Software
+parent: Typesetting Mathematics
 layout: post
-has_children: true
-has_toc: false
+toc: true
 redirect_from:
   - /econ/teaching/typesetting/typesettingSoftware
   - /econ/teaching/typesetting/typesettingSoftware.html
