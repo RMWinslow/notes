@@ -291,3 +291,11 @@ The page contains `IMAGEURLHERE` as a placeholder for a broken image reference.
   rather than in individual pages. Possible fixes include a kramdown math
   engine config, a MathJax/kramdown integration plugin, or escaping
   underscores in affected equations.
+- [ ] Trawl through Unicode and find symbols which: are easy to write,
+  distinguishable from other commonly used symbols, chunkable by most
+  students. (Migrated from `econ/nonsense/mathsymbols.html`, which was
+  just this idea in an empty HTML shell.)
+- [ ] Write a post about using git and why it is complementary to AI agents.
+  AI tools make git easier to use; git makes it easier and safer to use AI
+  agents. This would be a sister post to the typesetting/LaTeX pages, likely
+  under a new nav section related to software tools or similar.
