@@ -52,64 +52,109 @@ econ/macroprelim/
 
 `_detritus/research/arrowroot/arrowrootnotes.html`
 : Detailed study notes on Root's constrained allocation paper. Covers strategy-proofness, group strategy-proofness, nonbossiness, Maskin monotonicity, local dictatorship, Root's proof of Gibbard–Satterthwaite, and a side-by-side comparison of GS vs Root's setup. Heavy MathJax.
+: Migrated: No
+: Completed: Yes
 
 `_detritus/research/arrowroot/arrownotes.html`
 : Rough lecture/reading notes on Arrow's impossibility theorem — decisiveness, independence of irrelevant alternatives, ordinal vs cardinal preferences. Also contains scattered idea fragments (control theory, O-ring, farming) mixed in with the Arrow material.
+: Migrated: No
+: Completed: No, partial
 
 `_detritus/research/arrowroot/Root - Incentive Stuff.pdf`
 : The Root paper itself (976 KB PDF). Reference copy.
+: Migrated: No
+: Completed: N/A
 
 ## Macro prelim notes (Chari)
 
 `econ/macroprelim/Chari/privatemoney.html`
 : Worked prelim problem on a cash-credit economy with private money. Defines a competitive equilibrium, derives FOCs, characterizes the steady state under constant money growth, identifies the critical inflation threshold for a nonmonetary equilibrium, and shows the Friedman Rule is optimal. Includes an image (`FriedmanRule.png`). Substantial and complete.
+: Migrated: No
+: Completed: Yes
 
 `econ/macroprelim/Chari/sustainabledebt.html`
 : Worked prelim problem on government debt with sustainability constraints. Defines a CE with default risk, derives the implementability constraint, sets up the Ramsey problem, defines sustainable equilibrium with history-dependent strategies, characterizes the worst (autarky) and best sustainable equilibria. Substantial and complete.
+: Migrated: No
+: Completed: Yes
 
 `econ/macroprelim/Chari/productionrisk.html`
 : Brief outline for a consumption/saving problem with production risk. Only contains a sketch of the approach and the recursive equilibrium definition — no worked solutions. Incomplete.
+: Migrated: No
+: Completed: No, stub
 
 ## Macro prelim notes (Jones)
 
 `econ/macroprelim/Jones/HumanCapital.html`
 : Two problems concatenated in one file. The first half is a neoclassical growth model with human capital (planner's problem, homogeneity of the value function), but the proof is incomplete ("add term including initial condition... badabing"). The second half is a complete McCall search problem (identical content to Kehoe's `Search.html`). Uses blue (Jones) styling.
+: Migrated: No
+: Completed: No, partial
 
 `econ/macroprelim/Jones/dynamicprogramming.html`
 : Two problems concatenated in one file. The first half covers dynamic programming in the one-sector growth model — sequential form, Bellman equation, sufficient conditions for uniqueness, FOC and envelope condition with inelastic labor. The second half is again the same McCall search problem duplicated from `HumanCapital.html` and Kehoe's files. The human capital homogeneity section is also duplicated here. Uses blue (Jones) styling.
+: Migrated: No
+: Completed: No, partial
 
 `econ/macroprelim/Jones/questions.txt`
 : One-line question about value function representation. Not useful.
+: Migrated: No
+: Completed: No
 
 ## Macro prelim notes (Kehoe)
 
 `econ/macroprelim/Kehoe/Search.html`
 : McCall job search model. Setup, reservation wage characterization, comparative statics for unemployment benefits and mean-preserving spreads. This is the "canonical" version of the search content that also appears duplicated in both Jones files. Uses pink (Kehoe) styling. Substantial and complete.
+: Migrated: No
+: Completed: Yes
 
 `econ/macroprelim/Kehoe/dp.html`
 : Identical content to `Search.html` — the same McCall search problem with the same comparative statics. Appears to be an accidental duplicate. Uses pink styling but without the background color override.
+: Migrated: No
+: Completed: Yes, but this is a duplicate
 
 `econ/macroprelim/Kehoe/crossingProof.html`
 : A standalone proof that if one increasing function dominates another, their crossing points are ordered. Illustrated with a "laser beam" analogy and three diagrams (`laser1.png`, `laser2.png`, `laser3.png`). Used as a supporting lemma for the mean-preserving-spread comparative static. Uses pink styling.
+: Migrated: No
+: Completed: Yes
 
 `econ/macroprelim/Kehoe/KehoeSearchLabels.png`
 : Flowchart diagram for the McCall search model. Referenced by both Kehoe and Jones files.
+: Migrated: No
+: Completed: N/A
 
 ## Macro prelim notes (Concepts)
 
 `econ/macroprelim/Concepts/envelope.html`
 : Explanation of the envelope condition in dynamic programming. Starts with a Bellman equation example, gives a multivariate chain rule refresher, then derives the envelope condition showing why the indirect effect vanishes at the optimum. Ends with a flower emoji note. Uses default styling. Substantial.
+: Migrated: No
+: Completed: Yes
 
 `econ/macroprelim/Concepts/flowchartkey/FlowChartKey.html`
 : Legend for the custom flowchart notation used in the search problem notes. Defines period boundary, income, choice, chance, process, and present-value-label nodes with images. Includes a digression on the state-machine interpretation. References six PNG icons (`FCtime.png`, `FCincome.png`, `FCchoice.png`, `FCchance.png`, `FCprocess.png`, `FClabel.png`).
+: Migrated: No
+: Completed: Yes
 
 ## Macro prelim index and scaffolding
 
 `econ/macroprelim/prelimindex.html`
 : Hub page linking to the Chari notes. Most entries are plain text without links (Kehoe and Jones sections are stubs). Contains commented-out homework links and personal reminders. Could be replaced by a proper Jekyll nav parent.
+: Migrated: No
+: Completed: No
 
 `econ/macroprelim/roadmapTODO.html`
 : Scratch file experimenting with nested HTML layouts for a concept roadmap. Contains a topic outline (constrained optimization, competitive equilibrium, Pareto efficiency, search, Bellman equations) but no actual content — just test formatting and brainstorming. Not useful as a standalone page.
+: Migrated: No
+: Completed: No
+
+### Planned but never written (macro prelim)
+
+The macro prelim index and its commented-out checklist mention several problems
+that were planned but never started:
+
+- **Chari**: "Search and Unemployment" — listed in the index as plain text with no link.
+- **Chari**: "Default and Gov Debt" — mentioned in the commented-out checklist but never written.
+- **Kehoe**: "Overlapping Generations" — listed in the index as plain text.
+- **Kehoe**: "Sequential Markets vs Arrow-Debreu" — listed in the index as plain text.
+- **Jones**: The entire Jones section of the index is empty. The DP and human capital notes that exist were never linked from it.
 
 ```
 econ/tradeprelim/
@@ -142,60 +187,104 @@ econ/tradeprelim/
 
 `econ/tradeprelim/amador/multipleborrowers.html`
 : Worked prelim problem on a dynamic two-country Heckscher–Ohlin model with capital accumulation and factor reallocation across sectors. Includes setup, equilibrium definition, social planner's problem, international equilibrium, and theorems. Substantial and complete.
+: Migrated: No
+: Completed: Yes
 
 `econ/tradeprelim/amador/EatonG notes.lyx`
 : Brief LyX notes on Eaton and Gersovitz (1981) on sovereign borrowing and default, referencing the Bulow–Rogoff argument about asset market access. Stub.
+: Migrated: No
+: Completed: No, stub
 
 ## Trade prelim notes (Fitzgerald)
 
 `econ/tradeprelim/fitzgerald/armingtongravity.html`
 : Complete worked problem deriving the gravity equation from an Armington model with differentiated products. Covers resource constraints, cross-country prices, consumer optimization, price indices, and data applications.
+: Migrated: No
+: Completed: Yes
 
 `econ/tradeprelim/fitzgerald/melitzottaviano.html`
 : Problem statement for a symmetric Melitz–Ottaviano model with monopolistic competition and endogenous firm entry/exit. Eleven parts (a–k) covering consumer preferences, firm pricing, free entry, trade effects, and CES comparison. Problem only, no solutions.
+: Migrated: No
+: Completed: No, problem-only
 
 `econ/tradeprelim/fitzgerald/melitzottaviano_problem.html`
 : Duplicate of `melitzottaviano.html`.
+: Migrated: No
+: Completed: Yes, but this is a duplicate
 
 `econ/tradeprelim/fitzgerald/melitzottaviano/melitzottaviano.html`
 : Another duplicate of `melitzottaviano.html` in a subdirectory.
+: Migrated: No
+: Completed: Yes, but this is a duplicate
 
 `econ/tradeprelim/fitzgerald/melitzottaviano_solution.html`
 : Full solutions to the Melitz–Ottaviano problem with detailed derivations of equilibrium conditions and trade effects. Covers all eleven parts, though some welfare and intuition sections have TODO notes. Substantial.
+: Migrated: No
+: Completed: No, nearly
 
 `econ/tradeprelim/fitzgerald/mellitz work.lyx`
 : LyX working notes and derivations for the Melitz–Ottaviano model — price setting, firm profits, free entry conditions, effects of opening to trade, and CES utility comparisons. Scratchwork.
+: Migrated: No
+: Completed: No
 
 ## Trade prelim notes (Kehoe)
 
 `econ/tradeprelim/kehoe/hecksherohlin.html`
 : Complete worked problem on a two-sector dynamic Heckscher–Ohlin model with capital accumulation and international trade. Multi-part with setup, equilibrium definitions, social planner problem, and theorems.
+: Migrated: No
+: Completed: Yes
 
 `econ/tradeprelim/kehoe/hecksherwork.lyx`
 : LyX working notes with derivations for the dynamic Heckscher–Ohlin model — production equations, factor constraints, optimization. Scratchwork.
+: Migrated: No
+: Completed: No
 
 `econ/tradeprelim/kehoe/debtcrisiswork.lyx`
 : Empty placeholder. No content.
+: Migrated: No
+: Completed: No
 
 `econ/tradeprelim/kehoe/monopolisticcompetition.html`
 : Complete worked problem on international trade with monopolistic competition and heterogeneous firms. Covers pricing rules, equilibrium definition, productivity thresholds, trade equilibrium, and symmetric equilibria.
+: Migrated: No
+: Completed: Yes
 
 `econ/tradeprelim/kehoe/self-fulfillingdebt.html`
 : Worked problem on sovereign debt with sunspot-driven self-fulfilling crises. Covers recursive equilibrium definition, debt thresholds, debt rundown, crisis conditions, equilibrium construction, and an application to the 1994 Mexican crisis. Substantial and complete.
+: Migrated: No
+: Completed: Yes
 
 `econ/tradeprelim/kehoe/learningbydoing.html`
 : Stub for a Ricardian trade model with learning-by-doing. Title and setup only, no solutions.
+: Migrated: No
+: Completed: No, stub
 
 `econ/tradeprelim/kehoe/LBD/LBDconcepts.html`
 : Empty placeholder for learning-by-doing concepts.
+: Migrated: No
+: Completed: No
 
 `econ/tradeprelim/kehoe/LBD/LBDprelim.html`
 : Problem statement for a two-country Ricardian model with learning-by-doing and multiple equilibrium configurations. Five parts (a–e). Problem only, no solutions.
+: Migrated: No
+: Completed: No, problem-only
 
 `econ/tradeprelim/kehoe/LBD/LBDprelimSolutionA.html`
 : Full solution to the LBD prelim problem with five equilibrium cases, dynamics analysis, and discussion of technology gap effects. Substantial and complete.
+: Migrated: No
+: Completed: Yes
+
+### Planned but never written (trade prelim)
+
+The trade prelim index lists all existing problems and links them. The only gap
+is Amador's "Defaults, Multiple Borrowers, and Safe Assets (2019s)" which has a
+link tag but an empty href — the page was planned but never created. (The
+`multipleborrowers.html` file that exists covers the dynamic H-O model, which
+is a different problem.)
 
 ## Trade prelim index
 
 `econ/tradeprelim/prelimindex.html`
 : Navigation hub linking to all trade prelim problem sets by professor. Could be replaced by a proper Jekyll nav parent.
+: Migrated: No
+: Completed: No

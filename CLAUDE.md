@@ -291,6 +291,9 @@ The page contains `IMAGEURLHERE` as a placeholder for a broken image reference.
   rather than in individual pages. Possible fixes include a kramdown math
   engine config, a MathJax/kramdown integration plugin, or escaping
   underscores in affected equations.
+- [ ] After migrating the prelim notes to Jekyll markdown, polish them up with
+  related links between pages, references to seminal papers, and other
+  contextual material. Non-blocking — do this after the migration is done.
 - [ ] Trawl through Unicode and find symbols which: are easy to write,
   distinguishable from other commonly used symbols, chunkable by most
   students. (Migrated from `econ/nonsense/mathsymbols.html`, which was
