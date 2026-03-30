@@ -103,7 +103,7 @@ econ/macroprelim/
 
 `econ/macroprelim/Kehoe/Search.html`
 : McCall job search model. Setup, reservation wage characterization, comparative statics for unemployment benefits and mean-preserving spreads. This is the "canonical" version of the search content that also appears duplicated in both Jones files. Uses pink (Kehoe) styling. Substantial and complete.
-: Migrated: No
+: Migrated: Yes — `prelim/macro/mccall-search.md`
 : Completed: Yes
 
 `econ/macroprelim/Kehoe/dp.html`
@@ -118,7 +118,7 @@ econ/macroprelim/
 
 `econ/macroprelim/Kehoe/KehoeSearchLabels.png`
 : Flowchart diagram for the McCall search model. Referenced by both Kehoe and Jones files.
-: Migrated: No
+: Migrated: Yes — copied to `prelim/macro/img/`
 : Completed: N/A
 
 ## Macro prelim notes (Concepts)
@@ -130,7 +130,7 @@ econ/macroprelim/
 
 `econ/macroprelim/Concepts/flowchartkey/FlowChartKey.html`
 : Legend for the custom flowchart notation used in the search problem notes. Defines period boundary, income, choice, chance, process, and present-value-label nodes with images. Includes a digression on the state-machine interpretation. References six PNG icons (`FCtime.png`, `FCincome.png`, `FCchoice.png`, `FCchance.png`, `FCprocess.png`, `FClabel.png`).
-: Migrated: No
+: Migrated: Yes — `prelim/macro/flowchart-key.md`
 : Completed: Yes
 
 ## Macro prelim index and scaffolding

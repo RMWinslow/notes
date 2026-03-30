@@ -300,6 +300,10 @@ The page contains `IMAGEURLHERE` as a placeholder for a broken image reference.
 - [ ] After migrating the prelim notes to Jekyll markdown, polish them up with
   related links between pages, references to seminal papers, and other
   contextual material. Non-blocking — do this after the migration is done.
+- [ ] Design a segmented details/summary solution block for prelim problems.
+  The idea is a collapsible UI element that lets students work through a
+  problem step by step, revealing each part of the solution independently.
+  Low priority — nice to have after the core migration is complete.
 - [ ] Blog post idea: the advantages of dialectic learning. When reading
   an ancient dialogue, you should pause and think through the answer yourself.
   In a classroom, there is immense value to having students willing to push
