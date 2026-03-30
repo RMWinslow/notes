@@ -1,0 +1,15 @@
+/*Repo-specific CSS for the notes site, loaded by JTD-RMW theme.*/
+
+.definition {
+  padding: 0.5em;
+  border-radius: 25px;
+  background-color: var(--boxcolor);
+  border: 1.5px solid var(--accentcolor);
+}
+
+.definition h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: var(--feedbackcolor);
+  text-align: center;
+}

@@ -10,8 +10,7 @@ redirect_from:
 
 # Crossing Proof
 
-*Used as a supporting lemma for the mean-preserving-spread comparative static
-in the [McCall search problem](search.html).*
+<!-- Supporting lemma for the mean-preserving-spread comparative static in the McCall search problem. -->
 
 <div class="definition">
 <b>Theorem</b><br>
@@ -34,73 +33,28 @@ If:
 Then \(x_2\geq x_1\)
 </div>
 
-## Proof
+<div>
+<h2>Proof</h2>
 
-If $x < x_1$,
-then $f_1(x)>g(x)$.
-
-&emsp;Let $\dot{x} \equiv  \inf \left\\{     x\in X \mid f_1(x) \leq g(x) \right\\}$.
-
-&emsp;If $x < \dot{x}$,
-then $f_1(x)>g(x)$.
-
-&emsp;It must be that $\dot{x}=x_1$.
-
-&emsp;&emsp;Note that $\dot{x} > A$
-
-&emsp;&emsp;&emsp; By the continuity of  $g(x)$,
-there is an $\varepsilon > 0$
-such that $g(x)< f_1(A)$
-for all $x \leq A+\varepsilon$.
-
-&emsp;&emsp;&emsp; But $f_1$ is increasing,
-so for all $x\leq A+\varepsilon$,
-$f_1(x)\geq
-f_1(A)$.
-
-&emsp;&emsp;&emsp; Thus for all $x\leq A+\varepsilon$,
-$f_1(x) > g(x)$.
-So $\dot{x} \geq A+\varepsilon$.
-
-&emsp;&emsp;Note that if $x < \dot{x}$,
-then $f_1(\dot{x})\geq
-f_1(x) > g(x)$.
-
-&emsp;&emsp;The set of $x<\dot{x}$ is nonempty,
-so by the continuity of $g(x)$,
-$f_1(\dot{x})\geq g(\dot{x})$.
-
-&emsp;&emsp;If $f_1(\dot{x})> g(\dot{x})$,
-then a contradiction arises:
-
-&emsp;&emsp;&emsp; By the continuity of  $g(x)$,
-there is an $\varepsilon > 0$
-such that $ f_1(\dot{x}) > g(x)$
-for all $x\in B_\varepsilon [\dot{x}]$.
-
-&emsp;&emsp;&emsp; But $f_1$ is increasing,
-so for all $x\geq\dot{x}$,
-$f_1(x)\geq
-f_1(\dot{x})$.
-
-&emsp;&emsp;&emsp; Thus for all $x\leq \dot{x}+\varepsilon$,
-$f_1(x)\geq
-f_1(\dot{x}) > g(x)$.
-
-&emsp;&emsp;&emsp; And so $\dot{x}$
-is not the infimum of $\left\\{     x\in X \mid f_1(x) \leq g(x) \right\\}$. ↯.
-
-&emsp;&emsp;Therefore $f_1(\dot{x})=g(\dot{x})$,
-which implies that $\dot{x}=x_1$.
-
-So if $x < x_1$
-then $f_2(x)\geq
-f_1(x) > g(x)$.
-
-And $f_2(x_2)=
-g(x_2)$,
-so by contrapositive,
-$x_2 \geq x_1$.
+    If \(x < x_1\), then \(f_1(x)>g(x)\).<br>
+    &emsp;Let \(\dot{x} \equiv  \inf \left\{     x\in X \mid f_1(x) \leq g(x) \right\}\). <br>
+    &emsp;If \(x < \dot{x}\), then \(f_1(x)>g(x)\). <br>
+    &emsp;It must be that \(\dot{x}=x_1\). <br>
+    &emsp;&emsp;Note that \(\dot{x} > A\)<br>
+    &emsp;&emsp;&emsp; By the continuity of  \(g(x)\), there is an \(\varepsilon > 0\) such that \(g(x)< f_1(A)\) for all \(x \leq A+\varepsilon\).<br>
+    &emsp;&emsp;&emsp; But \(f_1 \) is increasing, so for all \(x\leq A+\varepsilon\), \(f_1(x)\geq f_1(A)\).<br>
+    &emsp;&emsp;&emsp; Thus for all \(x\leq A+\varepsilon\), \(f_1(x) > g(x)\). So \(\dot{x} \geq A+\varepsilon\).<br>
+    &emsp;&emsp;Note that if \(x < \dot{x}\), then \(f_1(\dot{x})\geq f_1(x) > g(x)\). <br>
+    &emsp;&emsp;The set of \(x<\dot{x}\) is nonempty, so by the continuity of \(g(x)\), \(f_1(\dot{x})\geq g(\dot{x})\). <br>
+    &emsp;&emsp;If \(f_1(\dot{x})> g(\dot{x})\), then a contradiction arises:<br>
+    &emsp;&emsp;&emsp; By the continuity of  \(g(x)\), there is an \(\varepsilon > 0\) such that \( f_1(\dot{x}) > g(x)\) for all \(x\in B_\varepsilon [\dot{x}]\).<br>
+    &emsp;&emsp;&emsp; But \(f_1 \) is increasing, so for all \(x\geq\dot{x}\), \(f_1(x)\geq f_1(\dot{x})\).<br>
+    &emsp;&emsp;&emsp; Thus for all \(x\leq \dot{x}+\varepsilon\), \(f_1(x)\geq f_1(\dot{x}) > g(x)\).<br>
+    &emsp;&emsp;&emsp; And so \(\dot{x}\)  is not the infimum of \(\left\{     x\in X \mid f_1(x) \leq g(x) \right\}\). ↯.<br>
+    &emsp;&emsp;Therefore \(f_1(\dot{x})=g(\dot{x})\), which implies that \(\dot{x}=x_1\).<br>
+    So if \(x < x_1\) then \(f_2(x)\geq f_1(x) > g(x)\).<br>
+    And \(f_2(x_2)=g(x_2)\), so by contrapositive, \(x_2 \geq x_1\). <br>
+</div>
 
 
 ## But also, I mean, just look at it.
