@@ -294,6 +294,10 @@ The page contains `IMAGEURLHERE` as a placeholder for a broken image reference.
 - [ ] After migrating the prelim notes to Jekyll markdown, polish them up with
   related links between pages, references to seminal papers, and other
   contextual material. Non-blocking — do this after the migration is done.
+- [ ] Blog post idea: the advantages of dialectic learning. When reading
+  an ancient dialogue, you should pause and think through the answer yourself.
+  In a classroom, there is immense value to having students willing to push
+  back on ideas. How to encourage that?
 - [ ] Trawl through Unicode and find symbols which: are easy to write,
   distinguishable from other commonly used symbols, chunkable by most
   students. (Migrated from `econ/nonsense/mathsymbols.html`, which was
