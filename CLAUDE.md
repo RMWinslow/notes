@@ -24,7 +24,13 @@ Do not drop articles ("a", "an", "the") from commit messages, prose, or any
 other written text. Write in complete, natural English.
 
 Commit messages should explain reasoning and motivation ("why"), not restate
-the diff ("what").
+the diff ("what"). They should use natural sentence construction, not terse
+noun phrases. Do not mention changes made in other repos.
+
+Do not add AI-generated text to user-facing pages. If contextual notes are
+needed (e.g., explaining what a page is used for), use HTML comments. The
+user's own words are strongly preferred for TODO items, page descriptions,
+and any prose that will be read by humans.
 
 When migrating or reorganizing files, separate the mechanical move from any
 edits to the moved files. First commit the files with their original content

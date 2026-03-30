@@ -113,7 +113,7 @@ econ/macroprelim/
 
 `econ/macroprelim/Kehoe/crossingProof.html`
 : A standalone proof that if one increasing function dominates another, their crossing points are ordered. Illustrated with a "laser beam" analogy and three diagrams (`laser1.png`, `laser2.png`, `laser3.png`). Used as a supporting lemma for the mean-preserving-spread comparative static. Uses pink styling.
-: Migrated: No
+: Migrated: Yes — `prelim/macro/crossing-proof.md`
 : Completed: Yes
 
 `econ/macroprelim/Kehoe/KehoeSearchLabels.png`
