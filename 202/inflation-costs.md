@@ -5,7 +5,6 @@ parent: Principles of Macro
 layout: post
 date: 2024-11-06
 last_modified_date: 2024-11-06
-redirect_from: /202/inflation-costs
 ---
 
 Suppose we multiplied all dollar amounts in the economy by 100.
