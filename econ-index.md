@@ -69,12 +69,12 @@ econ/macroprelim/
 
 `econ/macroprelim/Chari/privatemoney.html`
 : Worked prelim problem on a cash-credit economy with private money. Defines a competitive equilibrium, derives FOCs, characterizes the steady state under constant money growth, identifies the critical inflation threshold for a nonmonetary equilibrium, and shows the Friedman Rule is optimal. Includes an image (`FriedmanRule.png`). Substantial and complete.
-: Migrated: No
+: Migrated: Yes — `prelim/macro/private-money.md`
 : Completed: Yes
 
 `econ/macroprelim/Chari/sustainabledebt.html`
 : Worked prelim problem on government debt with sustainability constraints. Defines a CE with default risk, derives the implementability constraint, sets up the Ramsey problem, defines sustainable equilibrium with history-dependent strategies, characterizes the worst (autarky) and best sustainable equilibria. Substantial and complete.
-: Migrated: No
+: Migrated: Yes — `prelim/macro/sustainable-debt.md`
 : Completed: Yes
 
 `econ/macroprelim/Chari/productionrisk.html`
@@ -125,7 +125,7 @@ econ/macroprelim/
 
 `econ/macroprelim/Concepts/envelope.html`
 : Explanation of the envelope condition in dynamic programming. Starts with a Bellman equation example, gives a multivariate chain rule refresher, then derives the envelope condition showing why the indirect effect vanishes at the optimum. Ends with a flower emoji note. Uses default styling. Substantial.
-: Migrated: No
+: Migrated: Yes — `prelim/macro/envelope-condition.md`
 : Completed: Yes
 
 `econ/macroprelim/Concepts/flowchartkey/FlowChartKey.html`
